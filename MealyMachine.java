@@ -15,11 +15,11 @@ public class MealyMachine {
 		
 		System.out.println("Mealy machine : Vending Machine");
 		System.out.println("You are in state "+ ps);
-		System.out.println("Rules : \n1)Chocolate is released on giving more than or equal to 10 cents.");
-		System.out.println("Rules : \n2)Nickel and dime cannot be entered in the same transaction");
-		System.out.println("Rules : \n3)State for 0 cents is 0 and 5 cents is 5");
-		System.out.println("Rules : \n4)Enter N for Nickel, D for Dime");
-		System.out.println("Rules : \n5)Machine will reset after releasing the chocolate");
+		System.out.println("Rules 1): Chocolate is released on giving more than or equal to 10 cents.");
+		System.out.println("Rules 2): Nickel and dime cannot be entered in the same transaction");
+		System.out.println("Rules 3): State for 0 cents is 0 and 5 cents is 5");
+		System.out.println("Rules 4): Enter N for Nickel, D for Dime");
+		System.out.println("Rules 5): Machine will reset after releasing the chocolate");
 		show_state_transition_table();
 		while(true)
 		{
@@ -107,6 +107,7 @@ public class MealyMachine {
 	public static void show_state_transition_table()
 	{
 
+		System.out.println("Transition Table");
 		System.out.println("PS\tN\tD\tNextState\tOutput");
 		System.out.println("\n\n");
 		System.out.println("0\t0\t0\t0\t\t0");
