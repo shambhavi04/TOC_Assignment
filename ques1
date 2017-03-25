@@ -1,3 +1,7 @@
+/*Implementing string matching using Finite Automata as given in Cormen book pg. no. 995. In the first step, 
+take pattern as an input, construct transition table using the algorithm. In second step, take a string as an 
+input from user and see whether the pattern exists or not using the transition table created in first step. */
+
 package toc;
 
 /**
